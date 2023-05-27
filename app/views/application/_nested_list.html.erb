@@ -1,0 +1,11 @@
+<ul>
+  <li>
+    <span><%= index %></span>
+  </li>
+  <% if index < max %>
+    <%= render partial: 'nested_list', locals: {
+      index: index + 1,
+      max: max
+    } %>
+  <% end %>
+</ul>
