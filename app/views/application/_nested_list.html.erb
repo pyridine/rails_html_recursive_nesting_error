@@ -2,7 +2,7 @@
   <li>
     <span><%= index %></span>
   </li>
-  <% if index < max %>
+  <% if index <= max %>
     <%= render partial: 'nested_list', locals: {
       index: index + 1,
       max: max
