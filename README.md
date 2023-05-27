@@ -1,3 +1,5 @@
+Error repro setup for this rails issue: https://github.com/rails/rails/issues/48318
+
 The error can be seen by running rails and navigating to localhost:3000.
 
 I needed to run rails with this:
